@@ -1,4 +1,4 @@
-package com.high_technology_software.concept.criminalintent;
+package com.high_technology_software.concept.remotecontrol;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
