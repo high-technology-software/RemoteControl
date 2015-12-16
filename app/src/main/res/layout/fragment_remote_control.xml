@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="*" >
-
     <TextView
         android:id="@+id/fragment_remote_control_selectedTextView"
         android:layout_width="match_parent"
@@ -13,7 +12,6 @@
         android:gravity="center"
         android:text="0"
         android:textSize="50dp" />
-
     <TextView
         android:id="@+id/fragment_remote_control_workingTextView"
         android:layout_width="match_parent"
@@ -22,7 +20,6 @@
         android:layout_margin="15dp"
         android:background="#cccccc"
         android:textSize="20dp" />
-
     <include
         android:layout_weight="1"
         layout="@layout/button_row" />
@@ -32,9 +29,10 @@
     <include
         android:layout_weight="1"
         layout="@layout/button_row" />
-    <include
-        android:layout_weight="1"
-        layout="@layout/button_row" />
-
-
+    <TableRow
+        android:layout_weight="1">
+        <Button style="@style/RemoteButtonBold" />
+        <Button style="@style/RemoteButton" />
+        <Button style="@style/RemoteButtonBold" />
+    </TableRow>
 </TableLayout>
